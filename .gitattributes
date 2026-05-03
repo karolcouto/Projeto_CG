@@ -30,22 +30,22 @@
 *.uss                   text diff=css linguist-language=css
 *.uxml                  text linguist-language=xml linguist-detectable
 # Unity YAML files
-*.anim                  unity-yaml
+*.anim filter=lfs diff=lfs merge=lfs -text
 *.asset filter=lfs diff=lfs merge=lfs -text
 *.brush                 unity-yaml
-*.controller            unity-yaml
+*.controller filter=lfs diff=lfs merge=lfs -text
 *.flare                 unity-yaml
 *.fontsettings          unity-yaml
 *.giparams              unity-yaml
 *.guiskin               unity-yaml
 *.lighting              unity-yaml
 *.mask                  unity-yaml
-*.mat                   unity-yaml
+*.mat filter=lfs diff=lfs merge=lfs -text
 *.meta                  unity-yaml
 *.mixer                 unity-yaml
 *.overrideController    unity-yaml
 *.playable              unity-yaml
-*.prefab                unity-yaml
+*.prefab filter=lfs diff=lfs merge=lfs -text
 *.preset                unity-yaml
 *.renderTexture         unity-yaml
 *.scenetemplate         unity-yaml
